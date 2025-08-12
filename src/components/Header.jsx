@@ -28,13 +28,18 @@ const Header = ({ scrollY }) => {
         scrollY > 50 ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'
       }`}>
         <div className="container mx-auto px-4 flex justify-between items-center">
-          <a href="#" className="text-2xl font-bold flex items-center">
-            <span className={`transition-colors duration-300 ${
-              scrollY > 50 ? 'text-emerald-500' : 'text-white'
-            }`}>Eco</span>
-            <span className={`transition-colors duration-300 ${
-              scrollY > 50 ? 'text-blue-900' : 'text-emerald-400'
-            }`}>Plagas</span>
+          <a href="#" className="flex items-center">
+            <img 
+              src="/assets/images/logo.jpg" 
+              alt="ServiPlagas de Costa Rica" 
+              className="h-12 mr-2"
+            />
+            <span className={`font-bold text-lg md:text-xl transition-colors duration-300 ${
+              scrollY > 50 ? 'text-blue-900' : 'text-white'
+            }`}>
+              ServiPlagas
+              <span className="block text-xs md:text-sm font-medium">de Costa Rica</span>
+            </span>
           </a>
           
           {/* Desktop Navigation */}
@@ -101,10 +106,10 @@ const Header = ({ scrollY }) => {
         <div className="container mx-auto px-4 relative z-20">
           <div className="max-w-xl">
             <h1 className="font-['Montserrat'] font-bold text-4xl md:text-5xl text-white mb-4 leading-tight">
-              Protegemos tu hogar y negocio
+              Protegemos su hogar y negocio
             </h1>
             <p className="text-lg md:text-xl text-white/90 mb-8">
-              Soluciones efectivas contra plagas con técnicas respetuosas con el medio ambiente y tu familia
+              Soluciones efectivas contra plagas con técnicas respetuosas con el medio ambiente y su familia
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a 

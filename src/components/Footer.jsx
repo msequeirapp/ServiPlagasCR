@@ -37,9 +37,16 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Column 1 - About */}
           <div>
-            <div className="text-2xl font-bold mb-6 flex items-center">
-              <span className="text-emerald-400">Eco</span>
-              <span className="text-white">Plagas</span>
+            <div className="flex items-center mb-6">
+              <img 
+                src="/assets/images/logo.jpg" 
+                alt="ServiPlagas de Costa Rica" 
+                className="h-12 mr-2"
+              />
+              <span className="text-2xl font-bold text-white">
+                ServiPlagas
+                <span className="block text-xs font-medium">de Costa Rica</span>
+              </span>
             </div>
             <p className="text-gray-300 mb-4 leading-relaxed">
               Somos especialistas en control de plagas con soluciones efectivas y 
@@ -169,7 +176,7 @@ const Footer = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              &copy; {new Date().getFullYear()} EcoPlagas. Todos los derechos reservados.
+              &copy; {new Date().getFullYear()} ServiPlagas de Costa Rica. Todos los derechos reservados.
             </p>
             <div className="mt-2 md:mt-0">
               <ul className="flex space-x-6">

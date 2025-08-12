@@ -99,7 +99,7 @@ const Contact = () => {
           <h2 className="font-['Montserrat'] font-bold text-3xl md:text-4xl text-gray-800 mb-4">Contáctenos</h2>
           <div className="w-24 h-1 bg-emerald-500 mx-auto mb-6"></div>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            ¿Tiene problemas con plagas? ¡Estamos aquí para ayudarle! Complete el formulario y un especialista 
+            ¿Tiene problemas con plagas? ¡ServiPlagas de Costa Rica está aquí para ayudarle! Complete el formulario y un especialista 
             se pondrá en contacto con usted a la brevedad.
           </p>
         </div>
@@ -255,7 +255,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-white/90 mb-1">Dirección</h4>
-                    <p>Calle Principal #123, Ciudad</p>
+                    <p>Calle Principal #123, San José, Costa Rica</p>
                   </div>
                 </div>
                 
@@ -275,7 +275,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-white/90 mb-1">Email</h4>
-                    <p>info@ecoplagas.com</p>
+                    <p>info@serviplagas.cr</p>
                   </div>
                 </div>
                 

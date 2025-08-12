@@ -97,7 +97,7 @@ const AboutUs = () => {
           <div className="w-full lg:w-1/2">
             <h3 className="font-['Montserrat'] font-semibold text-2xl text-gray-800 mb-4">Expertos en control y prevención de plagas</h3>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              En <span className="font-semibold text-emerald-600">EcoPlagas</span>, nos dedicamos a proteger su hogar y negocio de plagas no deseadas utilizando técnicas efectivas y respetuosas con el medio ambiente.
+              En <span className="font-semibold text-emerald-600">ServiPlagas de Costa Rica</span>, nos dedicamos a proteger su hogar y negocio de plagas no deseadas utilizando técnicas efectivas y respetuosas con el medio ambiente.
             </p>
             <p className="text-gray-600 mb-8 leading-relaxed">
               Nuestro equipo de profesionales altamente capacitados combina conocimientos técnicos con un servicio personalizado, garantizando soluciones duraderas para todo tipo de problemas de plagas. Entendemos que cada situación es única, por lo que desarrollamos planes de tratamiento adaptados a sus necesidades específicas.

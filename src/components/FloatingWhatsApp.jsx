@@ -22,7 +22,7 @@ const FloatingWhatsApp = () => {
   };
   
   const handleWhatsAppClick = () => {
-    window.open('https://wa.me/50688889999?text=Hola%2C%20estoy%20interesado%20en%20sus%20servicios%20de%20control%20de%20plagas', '_blank');
+    window.open('https://wa.me/50688889999?text=Hola%2C%20estoy%20interesado%20en%20los%20servicios%20de%20ServiPlagas%20de%20Costa%20Rica', '_blank');
     setIsOpen(false);
   };
 
@@ -36,8 +36,8 @@ const FloatingWhatsApp = () => {
               <div className="flex items-center">
                 <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-white mr-3">
                   <img 
-                    src="https://randomuser.me/api/portraits/men/32.jpg" 
-                    alt="Agente" 
+                    src="/assets/images/logo.jpg" 
+                    alt="ServiPlagas" 
                     className="w-full h-full object-cover"
                   />
                 </div>
